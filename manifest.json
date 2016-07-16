@@ -4,7 +4,7 @@
     "name": "AllTube Download",
     "short_name": "AllTube",
     "description": "Easily download videos from Youtube, Dailymotion, Vimeo and other websites.",
-    "version": "0.1",
+    "version": "0.1.0",
     "browser_action": {
         "default_icon": "/img/logo_60.png",
         "default_title": "AllTube Download"
