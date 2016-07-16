@@ -1,4 +1,5 @@
 /*global chrome*/
+/*jslint unparam: true*/
 var getUrl = function (tab, audio) {
     'use strict';
     var url = 'https://alltubedownload.net/video?url=' + encodeURI(tab.url);

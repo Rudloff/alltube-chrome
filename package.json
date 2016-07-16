@@ -1,0 +1,12 @@
+{
+	"author": "Pierre Rudloff <contact@rudloff.pro>",
+	"license": "GPL-3.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Rudloff/emoji-everywhere.git"
+	},
+	"devDependencies": {
+		"grunt": "~1.0.0",
+		"grunt-jslint": "~1.1.14"
+	}
+}
