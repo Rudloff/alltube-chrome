@@ -1,7 +1,7 @@
 /*global chrome*/
 var getUrl = function (tab, audio) {
     'use strict';
-    var url = 'http://alltubedownload.net/api.php?url=' + encodeURI(tab.url);
+    var url = 'https://alltubedownload.net/video?url=' + encodeURI(tab.url);
     if (audio === true) {
         url += '&audio=on';
     }

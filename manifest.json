@@ -16,7 +16,7 @@
         "128": "/img/logo_128.png",
         "243": "/img/logo_app.png"
     },
-    "homepage_url": "http://alltubedownload.net/",
+    "homepage_url": "https://alltubedownload.net/",
     "permissions": [
         "contextMenus"
     ],
