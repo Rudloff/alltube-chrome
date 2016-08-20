@@ -10,11 +10,20 @@ module.exports = function (grunt) {
                 Gruntfile: {
                     src: ['Gruntfile.js']
                 }
+            },
+            jsonlint: {
+                manifests: {
+                    src: '*.json',
+                    options: {
+                        format: true
+                    }
+                }
             }
         }
     );
 
     grunt.loadNpmTasks('grunt-jslint');
+    grunt.loadNpmTasks('grunt-jsonlint');
 
-    grunt.registerTask('lint', ['jslint']);
+    grunt.registerTask('lint', ['jslint', 'jsonlint']);
 };
