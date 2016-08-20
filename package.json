@@ -1,12 +1,24 @@
 {
-	"author": "Pierre Rudloff <contact@rudloff.pro>",
-	"license": "GPL-3.0",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/Rudloff/emoji-everywhere.git"
-	},
-	"devDependencies": {
-		"grunt": "~1.0.0",
-		"grunt-jslint": "~1.1.14"
-	}
+  "name": "alltube-chrome",
+  "description": "Easily download videos from Youtube, Dailymotion, Vimeo and other websites.",
+  "version": "0.1.0",
+  "author": "Pierre Rudloff <contact@rudloff.pro>",
+  "bugs": "https://github.com/Rudloff/alltube-chrome/issues",
+  "devDependencies": {
+    "grunt": "~1.0.0",
+    "grunt-jslint": "~1.1.14"
+  },
+  "homepage": "https://www.alltubedownload.net/",
+  "keywords": [
+    "alltube",
+    "download",
+    "video",
+    "youtube"
+  ],
+  "license": "GPL-3.0",
+  "main": "alltube.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rudloff/emoji-everywhere.git"
+  }
 }
